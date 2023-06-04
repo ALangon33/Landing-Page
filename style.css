@@ -90,8 +90,8 @@ button {
 }
 
 .img-placeholder {
-  min-width: 500px;
-  min-height: 240px;
+  min-width: 475px;
+  max-height: 240px;
   background-color: #778;
   text-align: center;
 }
