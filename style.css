@@ -16,5 +16,15 @@ a {
 .container {
 	display: flex;
 	flex-flow:column nowrap;
-	align-items: center;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #1f2937;
+}
+
+.head-right ul {
+	display: flex;
+	flex-direction: row;
 }
