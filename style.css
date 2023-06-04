@@ -48,7 +48,17 @@ button {
 	gap:24px;
 }
 
+.hero-plaque {
+	display:flex;
+	padding: 48px;
+}
 
+.img-placeholder {
+	min-width: 340px;
+	min-height: 240px;
+	background-color:#778;
+	text-align: center;
+}
 
 .copyright {
 	display:flex;
