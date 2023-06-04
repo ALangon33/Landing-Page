@@ -91,8 +91,7 @@ button {
 
 .img-placeholder {
   min-width: 475px;
-  max-height: 240px;
-  background-color: #778;
+  min-height: 240px;
   text-align: center;
 }
 
