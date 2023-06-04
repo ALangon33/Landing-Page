@@ -29,7 +29,8 @@ button {
 	background-color: #3882f6;
 	border:#3882f6;
 	border-radius:10px;
-	padding:5px 20px;
+	padding: 5px 20px;
+	margin-top: 10px;
 }
 
 .container {
@@ -61,7 +62,7 @@ button {
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 48px;
+	padding: 140px;
 }
 
 .hero-card {
@@ -93,14 +94,15 @@ button {
 }
 
 .info-title {
-	font-size:32px;
-	font-weight: 600;
+	font-size:36px;
+	font-weight: bolder;
 	padding: 16px;
 }
 
 .info-img-con {
 	display:flex;
-	justify-content: space-between;
+	justify-content: center;
+	flex-flow: row nowrap;
 	gap: 32px;
 	margin: 20px;
 }
@@ -114,16 +116,54 @@ button {
 
 .info-img {
 	border:2px solid #3882f6;
-	border-radius: 25px;
-	min-width: 200px;
-	min-height: 200px;
+	border-radius: 10px;
+	min-width: 150px;
+	min-height: 150px;
+}
+
+.img-card p {
+	width: 150px;
+}
+
+.quote-plaque {
+	color: #1f2937;
+	background-color: #e5e7eb;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 150px;
+
+}
+
+.quote {
+	align-self: flex-start;
+	font-size: 36px;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.source {
+	align-self: flex-end;
+	margin: 2px 60px;
+
+}
+
+.ad-plaque {
+	padding:40px;
+	background-color: #fff;
+	color:#fff;
+}
+
+.ad-modal {
+	background-color:#3882f6;
+	border-radius: 8px;
+	padding:10px;
 }
 
 .copyright {
 	background-color: #1f2937;
 	color: #fff;
-	display:flex;
-	flex-direction: row;
 	text-align: center;
 	justify-content: center;
 	padding: 20px;
