@@ -86,6 +86,39 @@ button {
 	text-align: center;
 }
 
+.info-plaque {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-title {
+	font-size:32px;
+	font-weight: 600;
+	padding: 16px;
+}
+
+.info-img-con {
+	display:flex;
+	justify-content: space-between;
+	gap: 32px;
+	margin: 20px;
+}
+
+.img-card {
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.info-img {
+	border:2px solid #3882f6;
+	border-radius: 25px;
+	min-width: 200px;
+	min-height: 200px;
+}
+
 .copyright {
 	background-color: #1f2937;
 	color: #fff;
