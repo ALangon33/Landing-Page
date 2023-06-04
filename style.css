@@ -43,7 +43,12 @@ button {
 .header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding:24px;
+}
+
+.head-left {
+	font-size: 24px;
 }
 
 .head-right ul {
@@ -59,8 +64,19 @@ button {
 	padding: 48px;
 }
 
+.hero-card {
+	display:flex;
+	flex-direction: column;
+
+}
+
 .hero-title {
 	font-size: 48px;
+}
+
+.hero-text > p {
+	font-size: 18px;
+	color: #e5e7eb;
 }
 
 .img-placeholder {
@@ -71,9 +87,11 @@ button {
 }
 
 .copyright {
+	background-color: #1f2937;
+	color: #fff;
 	display:flex;
 	flex-direction: row;
-	flex: 1 auto;
 	text-align: center;
 	justify-content: center;
+	padding: 20px;
 }
