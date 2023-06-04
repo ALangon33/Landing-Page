@@ -6,6 +6,10 @@
 	margin:0;
 }
 
+body {
+	font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
 header {
 	background-color: #1f2937;
 	color: #f9faf8;
@@ -50,7 +54,13 @@ button {
 
 .hero-plaque {
 	display:flex;
+	justify-content: space-between;
+	align-items: center;
 	padding: 48px;
+}
+
+.hero-title {
+	font-size: 48px;
 }
 
 .img-placeholder {
